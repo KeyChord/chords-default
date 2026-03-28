@@ -1,5 +1,5 @@
 {
-  "name": "@keychord/chordpack-default",
+  "name": "@keychord/chordpack-chor",
   "version": "0.0.0",
   "chordPack": [
     "@keychord/chords-chord",

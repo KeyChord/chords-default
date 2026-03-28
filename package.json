@@ -1,6 +1,5 @@
 {
-  "name": "@keychord/chordpack-chor",
-  "version": "0.0.0",
+  "name": "@keychord/chordpack-chord",
   "chordPack": [
     "@keychord/chords-chord",
     "@keychord/chords-commands",
@@ -8,6 +7,5 @@
     "@keychord/chords-menu",
     "@keychord/chords-com.apple",
     "@keychord/chords-tray"
-  ],
-  "packageManager": "pnpm@10.33.0"
+  ]
 }

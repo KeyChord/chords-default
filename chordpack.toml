@@ -1,0 +1,10 @@
+name = "Chord's default chordpack"
+
+packages = [
+  "@keychord/chords-chord",
+  "@keychord/chords-commands",
+  "@keychord/chords-os",
+  "@keychord/chords-menu",
+  "@keychord/chords-com.apple",
+  "@keychord/chords-tray",
+]

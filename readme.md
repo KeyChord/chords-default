@@ -6,4 +6,5 @@ Chord's default "out-of-the-box" chordpack.
 
 We use a chordpack instead of a chord package because we don't want to manually delegate all the app-scoped chords defined in `@keychord/chords-com.apple`.
 
-> The API for defining a Chord Pack is likely subject to change.
+> The API for defining a Chord Pack is likely subject to change. Right now, it's just a single `chordpack.toml` file.
+

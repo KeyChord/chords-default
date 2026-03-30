@@ -2,7 +2,7 @@
 import { Octokit } from "@octokit/rest";
 import * as fs from "node:fs";
 import * as path from "node:path";
-import { parse, stringify } from "toml-patch";
+import { parse, stringify } from "smol-toml";
 
 interface PackageConfig {
   name: string;
@@ -84,7 +84,6 @@ async function updatePackageRevisions(): Promise<void> {
     }
   }
 
-  // stringify with toml-patch defaults to inline tables for objects within tables if possible
   const output = stringify(chordpack);
   fs.writeFileSync(chordpackPath, output);
   console.log(`Updated ${chordpackPath}`);

@@ -22,4 +22,4 @@ rev = "96fb79cdb77eb903876a2872c0941264fb2512c2"
 
 [packages."@keychord/chords-tray"]
 git = "https://github.com/KeyChord/chords-tray"
-rev = "4a3e93e17f7793c118db49de03684c3f2053d2e3"
+rev = "f10834192772c47a5a743036283966529f44759f"
